@@ -82,6 +82,52 @@ cource = 1512;
 
 
 
+let person :[
+number, string 
+]
+
+
+
+
+
+// myArray :any[] = [
+//     {id:1, name: 'object 1'}
+// ]
+
+
+// addNewObject(){
+//     const newObj = {
+//         id: this.myArray.length +1 , name:"new object "
+//     };
+//     this.myArray.push(newObj);
+// }
+
+
+interface MyObject {
+    key : string;
+    value : number;
+}
+
+
+const myArray : MyObject[] = [
+    {key :'item 1' , value :10},
+    {key :'item 3' , value :40},
+    {key :'item 4' , value :30}
+]
+
+
+
+const newObj : MyObject = 
+    {key: 'item4' , value:40};
+;
+
+myArray.push(newObj);
+
+console.log(myArray)
+
+
+
+
 
 
 
